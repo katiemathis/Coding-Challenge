@@ -1,0 +1,81 @@
+body{
+  background-image: url(scooters.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.container{
+  width: 650px;
+  margin: auto;
+  background: rgba(0,0,0,0.5);
+  background-position: center;
+  border-radius: 15px;
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+
+.logo{
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.title{
+  font-size: 25px;
+  color: limegreen;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 0px;
+
+}
+
+#overlay {
+  z-index: 10;
+  height: 40px;
+  background: limegreen;
+}
+
+.buttons{
+  z-index: 1;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.mini-header{
+  font-size: 20px;
+  font-family: sans-serif;
+
+}
+
+
+.description{
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+#stato-carico1{
+  width: 35%;
+  height: 20px;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+#stato-carico2{
+  width: 60%;
+  height: 20px;
+  background-color: limegreen;
+  border-radius: 5px;
+}
+
+#stato-carico3{
+  width: 18%;
+  height: 20px;
+  background-color: red;
+  border-radius: 5px;
+}
